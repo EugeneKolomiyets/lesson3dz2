@@ -2,7 +2,7 @@ package ua.alevel.git;
 
 public class countWords {
     public static void main(String[] args) {
-        String str = "hello from the another side";
+        String str = "  hello from  the     another side ";
         int counter = 0;
         boolean lookForGap = false;
         for (int i = 0; i < str.length(); i++) {
